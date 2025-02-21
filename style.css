@@ -1,13 +1,27 @@
 body{
     background-color: darkseagreen;
     background-image: url(a.jpg);
-}
-.form{
     font-family: 'Inter';
     color: whitesmoke;
+}
+input{
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 4px;
+
+
+    padding: 10px;
+}
+.form{
     width: 100vw;
     height: 100vh;
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.enviar{
+    background-color: aliceblue;
 }
