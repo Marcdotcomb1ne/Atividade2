@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-    <title>Atividade</title>
+    <title>Techstay</title>
 </head>
 <body>
-    
+    <div class="form">
+        <form>
+            <label for="fname">Nome completo</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="tele">Telefone</label><br>
+            <input type="tel" pattern="[0-9]{3}[0-9]{5}[0-9]{4}" placeholder ="(XXX)XXXXX-XXXX" id="tele" name="tele" required><br>
+
+            <label for="data">Data de nascimento</label><br>
+            <input type="date" id="data" name="data" required><br>
+
+            <label for="vehicle1"> Eu concordo com os termos</label>
+            <input type="checkbox" id="termo" name="termo" value="sn" required><br>
+            
+            <input type="submit"><br>
+            	
+        </form>
+    </div>
 </body>
 </html>
