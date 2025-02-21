@@ -4,6 +4,7 @@ body{
 }
 .form{
     text-align: center;
+    vertical-align: middle;
     font-family: 'Inter';
     color: whitesmoke;
 }
