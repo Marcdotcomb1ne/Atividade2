@@ -10,14 +10,17 @@
 </head>
 <body>
     <div class="form">
-        <h1>Formulário de feedback do usuário</h1>
+        
         <form>
-
+            <h1>Formulário de feedback do usuário</h1>
             <label for="fname2">Nome completo (Opcional)</label><br>
             <input type="text" id="fname2" name="fname2"><br>
 
             <label for="coment">Comentário</label><br>
-            <input type="text" id="coment" name="coment" minlenght="20" required><br>
+            <input type="text" id="coment" name="coment" minlength="20" required><br>
+
+            <label for="nota">Satisfação geral</label><br>
+            <input type="number" min="1" id="nota" name="nota" max="10" placeholder="1 a 10" required><br>
 
             <input type="submit"><br>
             	
