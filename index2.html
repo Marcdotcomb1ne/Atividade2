@@ -9,8 +9,9 @@
     <title>Techstay</title>
 </head>
 <body>
+    <div id="nome"></div>
     <div class="form">
-        <form>
+        <form action="" method="post" id="myform2">
             <h1>Reserva de sala</h1>
             <label for="data">Data de reserva</label><br><br>
             <input type="date" id="data" name="data" min="2025-02-21" required><br><br>
@@ -29,9 +30,10 @@
             <label for="participantes">Número de participantes</label><br><br>
             <input type="number" min="1" id="participantes" name="participantes" required><br><br>
 
-            <input type="submit" class="enviar"><br><br>
+            <button type="submit" id="enviar2">Enviar</button><br><br>
             	
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

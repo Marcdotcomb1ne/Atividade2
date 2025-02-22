@@ -9,12 +9,12 @@
     <title>Techstay</title>
 </head>
 <body>
+    <div id="nome"></div>
     <div class="form">
-        
-        <form>
-            <h1>Formulário de feedback do usuário</h1>
+        <form action="" method="post" id="myform3">
+            <h2>Formulário de feedback do usuário</h2>
             <label for="fname2">Nome completo (Opcional)</label><br><br>
-            <input type="text" id="fname2" name="fname2"><br><br>
+            <input type="text" id="fname2" name="fname2" placeholder=><br><br>
 
             <label for="coment">Comentário</label><br><br>
             <input type="text" id="coment" name="coment" minlength="20" required><br><br>
@@ -22,9 +22,10 @@
             <label for="nota">Satisfação geral</label><br><br>
             <input type="number" min="1" id="nota" name="nota" max="10" placeholder="1 a 10" class="enviar" required><br><br>
 
-            <input type="submit" class="enviar"><br><br>
+            <button type="submit" id="enviar3">Enviar</button><br><br>
             	
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
