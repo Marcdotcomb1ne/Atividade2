@@ -27,6 +27,22 @@ button{
 }
 button:hover{
     transform: scale(1.05);
+    background-color: #dddddd;
+    transition: .6s;
+}
+
+select{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 4px;
+
+    padding: 10px;
+}
+select:hover{
+    transform: scale(1.05);
+    background-color: #dddddd;
     transition: .6s;
 }
 
